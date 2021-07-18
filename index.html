@@ -158,7 +158,7 @@
     });
 
     function sendURL(){
-      const url = "http://localhost:8080/cut"
+      const url = "https://my-custom-link.herokuapp.com/cut"
     const data =  {"url":
       document.getElementById('source_url').value
     };
@@ -182,7 +182,7 @@
       obj = JSON.parse(JSON.stringify(data));
       var CodenoQuotes = obj.code.split('"').join('');
       // write POST result to results div
-      $("#result").append("<p id='transformed_url'>" + "http://localhost:8080/"+CodenoQuotes + "</p>"); 
+      $("#result").append("<p id='transformed_url'>" + "https://my-custom-link.herokuapp.com/"+CodenoQuotes + "</p>"); 
     },
     error: function(errMsg) {
         alert(errMsg);
