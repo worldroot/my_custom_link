@@ -25,7 +25,4 @@ app.get("/[a-f0-9]{5}", redirect);
 app.get('/', function(req, res){
   res.sendFile('/index.html', {root: "."});
 });
-
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-});
+app.listen(process.env.PORT || 8080)
