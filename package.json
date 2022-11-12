@@ -128,7 +128,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "npm install --force  && npm run build"
+    "heroku-postbuild": "npm install --force"
   },
   "repository": {
     "type": "git",
