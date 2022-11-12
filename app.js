@@ -10,8 +10,8 @@ const port = 8080;
 app.use(express.json());
 
 app.use(express.json({ extended: false }));
-app.use(express.static('public'));
 app.use('/images', express.static('/public'));
+app.use(express.static('public'));
 
 
 if (Storage.data.links === undefined) {
