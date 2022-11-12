@@ -5,7 +5,8 @@
   "main": "app.js",
   "type": "module",
   "engines": {
-    "node": "18.11.0"
+    "node": "18.11.0",
+    "npm": "8.19.2"
   },
   "dependencies": {
     "acorn": "^7.4.1",
