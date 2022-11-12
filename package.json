@@ -1,7 +1,7 @@
 {
   "name": "my_link",
   "version": "1.0.0",
-  "description": "",
+  "description": "shorten your links",
   "main": "app.js",
   "type": "module",
   "engines": {
@@ -137,5 +137,8 @@
   "bugs": {
     "url": "https://github.com/worldroot/my_custom_link/issues"
   },
-  "homepage": "https://github.com/worldroot/my_custom_link#readme"
+  "homepage": "https://github.com/worldroot/my_custom_link#readme",
+  "keywords": [
+    "url"
+  ]
 }
